@@ -1,5 +1,43 @@
-section.top-page
+header.haut img
 {
-    background: url("../img/Learn.jpg");
+    width: 100px;
+}
+
+--
+body
+{
+    margin: 0 auto;
+}
+
+.head
+{
+    align-items: center;
+}
+
+section.haut_de_page
+{
+    background: url("../img/Desk.jpg");
+    height: 80vh;
+    background-size: cover;
+    opacity: 0.70;
+}
+
+nav.nav
+{
+    display: flex;
+    justify-content: flex-end;
+
 
 }
+
+nav.nav li
+{
+    color: white;
+}
+
+h1.bvn
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Menu de navigation */
