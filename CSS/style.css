@@ -1,43 +1,65 @@
+/* HAUT DE PAGES */
+
 header.haut img
 {
     width: 100px;
 }
 
---
-body
+
+body        /*remplisage*/
 {
-    margin: 0 auto;
+    margin: auto;
 }
+
+/* Barre de menu */
+header.haut     
+{
+    display: flex;
+    align-items: center;
+
+}
+
 
 .head
 {
     align-items: center;
 }
 
-section.haut_de_page
-{
-    background: url("../img/Desk.jpg");
-    height: 80vh;
-    background-size: cover;
-    opacity: 0.70;
-}
-
 nav.nav
 {
     display: flex;
-    justify-content: flex-end;
-
+    list-style: none;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 50px;
 
 }
 
 nav.nav li
 {
     color: white;
+
 }
+
+/* Image en arrière plan */
+section.haut_de_page
+{
+    background: url("../img/Desk.jpg");
+    height: 80vh;
+    background-size: cover;
+    opacity: 0.60;
+    padding: 20px;
+}
+
+/* Titre de bienvenue */
 
 h1.bvn
 {
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin:auto;
+    text-shadow: : 1px 2px 3px;
 }
-/* Menu de navigation */
+
+
