@@ -1,8 +1,10 @@
-@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
-@import url(https://fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open=&selection.family=Abril+Fatface);
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    font-family
+    font-family: 'Lobster', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* HAUT DE PAGES */
@@ -10,6 +12,8 @@
 header.haut img
 {
     width: 100px;
+    display: flex;
+    justify-content: flex;
 }
 
 
@@ -23,6 +27,7 @@ header.haut
 {
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -60,13 +65,16 @@ section.haut_de_page
 
 /* Titre de bienvenue */
 
-h1.bvn
+h1.Titre
 {
     color: white;
-    padding: 20px;
+    padding: 200px 40px;
     margin: auto;
-    text-shadow: : 1px 2px 3px;
-    
+    text-shadow: -4px 6.5px 3px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    border-radius: 25px 25px 25px 25px;
+    border-color: black;
+    font-size: 50px;
+    letter-spacing: 3px;
 }
-
-
