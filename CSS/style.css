@@ -12,8 +12,8 @@
 header.haut img
 {
     width: 100px;
-    display: flex;
-    justify-content: flex;
+    border-radius: 70px;
+    margin-right: auto;
 }
 
 
@@ -26,8 +26,9 @@ body        /*remplisage*/
 header.haut     
 {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    margin: -35px;
 
 }
 
@@ -41,15 +42,23 @@ nav.nav
 {
     display: flex;
     list-style: none;
-    justify-content: space-between;
-    width: 500px;
-    margin-left: 50px;
-
+    justify-content: center;
+    width: 50px;
+    flex-grow: 1;
 }
 
 nav.nav li
 {
-    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+    color: black;
+    border: solid;
+    border-radius: 25px 25px 25px 25px;
+    border-color: rgb(128,191,255);
+    border-width: 3.5px;
+    background-color:rgb(230,255,255);
+    padding: 10px 15px;
 
 }
 
@@ -59,8 +68,8 @@ section.haut_de_page
     background: url("../img/Desk.jpg");
     height: 80vh;
     background-size: cover;
-    opacity: 0.60;
-    padding: 20px;
+    opacity: 0.90;
+    padding: 60px;
 }
 
 /* Titre de bienvenue */
